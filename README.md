@@ -1,1 +1,2 @@
-# yurika727.github.io
+Welcome to my portfolio.
+(dmcs)
