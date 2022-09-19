@@ -8,8 +8,8 @@ body {
     background-repeat: no-repeat;
     background-size: 2000px;
     display: flex;
-    font-family: 'Gotham Pro';
-}
+    font-family: 'Balsamiq Sans';
+  }
 
 /* customizable snowflake styling */
 .snowflake {
@@ -245,8 +245,8 @@ input[type=button]::-webkit-focus-inner {
     -o-transition: 0.2s;
     -moz-transition: 0.2s;
     transition: 0.2s;
-    font-family: 'Gotham Pro';
-    font: 'Gotham Pro';
+    font-family: 'Balsamiq Sans';
+    font: 'Balsamiq Sans';
 }
 
 a.nolink:active,
