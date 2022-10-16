@@ -1,4 +1,4 @@
-/* import fonts*/ 
+/* import fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
@@ -70,14 +70,14 @@ body {
     align-items: center;
     flex-direction: column;
 }
-.info {
+#info {
     min-width: 300px;
     width: 300px;
     display: flex;
     background: none;
     padding: 35px;
     color: var(--text-color);
-    border-radius: 16px; 
+    border-radius: 16px;
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
     -khtml-border-radius: 16px;
@@ -91,7 +91,7 @@ body {
     width: 300px;
     display: flex;
     padding: 0px;
-    border-radius: 8px; 
+    border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -khtml-border-radius: 8px;
@@ -99,12 +99,12 @@ body {
 a.link {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -moz-tap-highlight-color: rgba(0,0,0,0);
-    padding: 8px 20px; 
+    padding: 8px 20px;
     margin: 4px;
     background: var(--back-color);
     color: #fff;
     cursor: pointer;
-    border-radius: 8px; 
+    border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -khtml-border-radius: 8px;
@@ -189,7 +189,7 @@ h2 {
 .popup {
     top: 10%;
     left: 0;
-    right: 0;       
+    right: 0;
     font-size: 14px;
     margin: auto;
     width: 85%;
@@ -214,12 +214,12 @@ h2 {
 input[type=button] {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -moz-tap-highlight-color: rgba(0,0,0,0);
-    padding: 12px 20px; 
+    padding: 12px 20px;
     background: hsla(0, 0%, 23%, 0.774);
     color: #fff;
     border: 0 none;
     cursor: pointer;
-    border-radius: 8px; 
+    border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -khtml-border-radius: 8px;

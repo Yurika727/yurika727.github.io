@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="assets/favico/icon.png" type="image/png">
         <script src="https://sindresorhus.com/devtools-detect/index.js"></script>
+        <link rel="stylesheet" href="assets/css/info/style.css">
         <link rel="stylesheet" href="assets/vars.css">
         <link rel="stylesheet" href="assets/css/index/style.css">
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
@@ -28,6 +29,17 @@
         <div class="snowflake">❅</div>
         <div class="snowflake">❆</div>
         <div class="snowflake">❄</div>
+<div id="info">
+  <div class="popup">
+    <h1>About Me</h1>
+    <h3>✦ I'm Yurika, also known as Hayn.I'm from Vinh Phuc, Viet Nam.</h3>
+    <h3>✦ I'm currently using Arch Linux and Vim for "write text" (Yes, I'm an Arch fanboy).</h3>
+    <h3>✦ Nice to meet you!</h3>
+    <p align="center">
+    <p align="center"><input class="btn" type="button" value="Close" title="Close" onclick="document.getElementById('info').style.display='none';"></p>
+    </p>
+  </div>
+</div>
         <div id="donate">
             <div class="popup">
                 <h1>Donate</h1>
@@ -62,7 +74,7 @@
                 <a href="https://dsc.gg/fallencommunity" class="link"><img src="/assets/images/discord.svg" style="width:16px;height:16px;display: inline-block;"> Fallen</a>
             </div>
             <div class="buttons">
-              <a href="info.html" class="link"><img src="/assets/images/info.svg" style="width:16px;height:16px;display:"inline-block"> Info</a>
+              <a href="javascript://" class="link" onclick="document.getElementById('info').style.display='block'"><img src="/assets/images/info.svg" style="width:16px;height:16px;display:"inline-block"> Info</a>
                 <a href="https://github.com/Yurika727" class="link"><img src="/assets/images/github.svg" style="width:16px;height:16px;display: inline-block;">  Github</a>
             </div>
             <div class="buttons">
